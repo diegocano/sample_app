@@ -29,11 +29,12 @@ gem 'turbolinks'
 
 group :test do
   gem 'capybara', '1.1.2'
+  
+end
+group :production do
+  gem 'pg'
 end
 
-group :production do
-  gem 'pg', '0.15.1'
-end
 
 gem 'pg', '0.15.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
